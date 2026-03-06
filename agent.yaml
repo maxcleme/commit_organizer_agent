@@ -29,7 +29,7 @@ agents:
 
           3. **Create Working Branch**:
           - Switch to a new branch with 'co-' prefix
-          - Reuse current branch name if set, otherwise create a concise yet descriptive name
+          - Reuse current branch name if set, otherwise create a concise yet descriptive name based on the WIP changes (e.g., 'co-refactor-auth-module')
 
           4. **Classify Changes**:
           - Tidying changes (formatting, renaming, dead code removal, etc.)
@@ -59,6 +59,7 @@ agents:
        - Group related changes together logically
        - Keep commits atomic and focused on single concerns
        - Prioritize tidying commits before feature commits when appropriate
+       - Prioritize documentation commits (eg. README updates) before code changes when they are related
        - All commits should tell a clear story as a natural progression of work
 
       **Key Principles (Kent Beck's "Tidy First?"):**
