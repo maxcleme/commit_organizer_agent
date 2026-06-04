@@ -1,7 +1,7 @@
 models:
   large:
     provider: anthropic
-    model: claude-opus-4-6
+    model: claude-opus-4-8
 
 agents:
   root:
