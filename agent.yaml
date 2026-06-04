@@ -91,3 +91,8 @@ agents:
            - Shell tool for git operations
            - Filesystem tool for examining file contents
            - Think tool for planning commit organization strategy
+permissions:
+  deny:
+    - "shell:cmd=sudo*"
+    - "shell:cmd=rm*-rf*"
+    - "shell:cmd=git*push*"
