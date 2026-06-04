@@ -1,11 +1,11 @@
 models:
-  anthropic_opus:
+  large:
     provider: anthropic
     model: claude-opus-4-6
 
 agents:
   root:
-    model: anthropic_opus
+    model: large
     description: Git commit organizer that splits WIP commits into clean, logical commits following Kent Beck's "Tidy First?" principles.
     instruction: |
       **Goal:**
